@@ -6,10 +6,10 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 3,
     "base_level": 1.81,
-    "decay_rate": 1.08015,
+    "decay_rate": 1.09095,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-26 07:56:34",
+    "last_success_time": "2026-07-26 11:49:04",
     "last_valid_level": 1.85
   },
   "昆布川": {
@@ -19,10 +19,10 @@
     "runoff_factor": 0.045,
     "rain_lag_hours": 1,
     "base_level": 43.58,
-    "decay_rate": 1.0796,
+    "decay_rate": 1.0904,
     "hamiaka_threshold": 30.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-26 07:56:36",
+    "last_success_time": "2026-07-26 11:49:05",
     "last_valid_level": 1.85
   },
   "天ノ川": {
@@ -32,10 +32,10 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 2,
     "base_level": 1.6,
-    "decay_rate": 1.08015,
+    "decay_rate": 1.09095,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-26 07:56:37",
+    "last_success_time": "2026-07-26 11:49:06",
     "last_valid_level": 1.85
   },
   "朱太川": {
@@ -45,10 +45,10 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 2,
     "base_level": 1.44,
-    "decay_rate": 1.07982,
+    "decay_rate": 1.09062,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-26 07:56:38",
+    "last_success_time": "2026-07-26 11:49:07",
     "last_valid_level": 1.85
   }
 }
