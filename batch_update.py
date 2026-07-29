@@ -2,10 +2,11 @@ import json
 import os
 from datetime import datetime
 import requests
-from bs4 import BeautifulSoup
+import re
 
 DATA_DIR = "data"
 PARAMS_FILE = os.path.join(DATA_DIR, "river_params.json")
+WATER_LOG_FILE = "water_levels_history.json"  # 1つ目のプログラムと同じ保存先を指定
 
 def load_json(filepath):
     if os.path.exists(filepath):
@@ -18,22 +19,45 @@ def save_json(data, filepath):
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+def load_water_history():
+    if os.path.exists(WATER_LOG_FILE):
+        with open(WATER_LOG_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def save_water_history(river_name, timestamp_str, level):
+    history = load_water_history()
+    if river_name not in history:
+        history[river_name] = {}
+    history[river_name][timestamp_str] = level
+    with open(WATER_LOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+
 def fetch_water_level(url):
     """
-    指定されたURLから水位データをスクレイピングする関数
-    ※実際の河川ページのHTML構造に合わせてセレクタを調整してください
+    1つ目のプログラムと同様の正規表現を用いて実際の水位を取得する処理
     """
+    if not url: 
+        return None
+    headers = {"User-Agent": "Mozilla/5.0"}
     try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, 'html.parser')
+        res = requests.get(url, headers=headers, timeout=10)
+        res.raise_for_status()
+        clean_text = " ".join(re.sub(r"<[^>]+>", " ", res.text).split())
         
-        # 仮の抽出ロジック（実際のページ構造に合わせて変更してください）
-        # 例: 水位が記載されている特定のタグを取得
-        level_text = soup.find(text=lambda t: t and "m" in t) 
-        # デモ動作用として、もしうまく取れない場合は固定値を返すかパース処理を記述
-        return 1.85  # サンプルとしての数値（実際はスクレイピング結果を入れる）
+        extracted_val = None
+        for pat in [r"現在水位\s*(\d+\.\d{2})\s*m", r"\d{1,2}:\d{2}\s*時点\s*(\d+\.\d{2})\s*m", r"時点\s*(\d+\.\d{2})\s*m"]:
+            match = re.search(pat, clean_text)
+            if match:
+                extracted_val = float(match.group(1))
+                break
+        
+        if extracted_val is None:
+            matches = re.findall(r"(\d+\.\d{2})\s*m", clean_text)
+            if matches:
+                extracted_val = float(matches[0])
+                
+        return extracted_val
     except Exception as e:
         print(f"スクレイピングエラー ({url}): {e}")
         return None
@@ -50,17 +74,11 @@ def optimize_parameters(params, current_level):
     diff = current_level - base_level
 
     # ズレに応じたパラメータの微調整（変動幅は安全な上限±5%に制限）
-    # 例：減衰率（decay_rate）の調整
     current_decay = params.get("decay_rate", 0.9975)
     if diff > 0.5:
-        # 水位が高めの場合の学習補正
-        new_decay = max(current_decay * 0.99, current_decay * 0.95) # 変動幅制限
+        new_decay = max(current_decay * 0.99, current_decay * 0.95)
     else:
         new_decay = min(current_decay * 1.01, current_decay * 1.05)
-    
-    # ハミ垢成長係数の微調整ロジックなど
-    current_hami_growth = params.get("hamiaka_growth_rate", 1.0)
-    # 簡易的な学習シミュレーション（実績に基づき微小変化させる）
     
     params["decay_rate"] = round(float(new_decay), 5)
     params["last_valid_level"] = current_level
@@ -74,12 +92,20 @@ def main():
         print("パラメータファイルが見つかりません。")
         return
 
+    # グラフ表示用に「YYYY-MM-DD HH:00」の形式で現在時刻を作成
+    now_hour_str = datetime.now().strftime("%Y-%m-%d %H:00")
+
     for river_name, params in params_data.items():
         url = params.get("url")
         print(f"処理中: {river_name} (URL: {url})")
         
         # 水位データ取得
         current_level = fetch_water_level(url)
+        
+        # 取得に成功した場合、水位履歴ファイルへ保存する処理を追加
+        if current_level is not None:
+            save_water_history(river_name, now_hour_str, current_level)
+            print(f"-> 水位 {current_level}m を履歴に保存しました。")
         
         # パラメータの自動最適化（学習）を実行
         updated_params = optimize_parameters(params, current_level)
