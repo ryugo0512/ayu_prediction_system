@@ -6,10 +6,10 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 3,
     "base_level": 1.81,
-    "decay_rate": 1.16942,
+    "decay_rate": 1.15773,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-29 16:12:43",
+    "last_success_time": "2026-07-29 20:32:51",
     "last_valid_level": 9.42
   },
   "昆布川": {
@@ -19,11 +19,11 @@
     "runoff_factor": 0.045,
     "rain_lag_hours": 1,
     "base_level": 43.58,
-    "decay_rate": 1.21651,
+    "decay_rate": 1.22868,
     "hamiaka_threshold": 30.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-29 16:12:44",
-    "last_valid_level": 43.47
+    "last_success_time": "2026-07-29 20:32:52",
+    "last_valid_level": 43.46
   },
   "天ノ川": {
     "url": "https://weathernews.jp/onebox/river/?pid=0025700400132",
@@ -32,11 +32,11 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 2,
     "base_level": 1.6,
-    "decay_rate": 1.21714,
+    "decay_rate": 1.22931,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-29 16:12:46",
-    "last_valid_level": 1.49
+    "last_success_time": "2026-07-29 20:32:53",
+    "last_valid_level": 1.48
   },
   "朱太川": {
     "url": "https://weathernews.jp/onebox/river/shubutogawa/?pid=0025700400387",
@@ -45,10 +45,10 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 2,
     "base_level": 1.44,
-    "decay_rate": 1.21679,
+    "decay_rate": 1.22896,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-29 16:12:47",
-    "last_valid_level": 1.32
+    "last_success_time": "2026-07-29 20:32:54",
+    "last_valid_level": 1.35
   }
 }
