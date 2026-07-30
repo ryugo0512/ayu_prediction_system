@@ -103,8 +103,8 @@ def main():
         }
         water_levels[river_name].append(new_record)
         
-        # 直近7日分（最大168件）のみ保持して古いデータを整理
-        water_levels[river_name] = water_levels[river_name][-168:]
+        # 直近14日分（最大336件）のみ保持して古いデータを整理
+        water_levels[river_name] = water_levels[river_name][-336:]
 
         # パラメータデータの更新
         if river_name not in river_params:
