@@ -24,6 +24,11 @@
       "timestamp": "2026-07-30 17:00",
       "water_level": 1.58,
       "fetch_error": false
+    },
+    {
+      "timestamp": "2026-07-30 18:00",
+      "water_level": 1.58,
+      "fetch_error": false
     }
   ],
   "昆布川": [
@@ -49,6 +54,11 @@
     },
     {
       "timestamp": "2026-07-30 17:00",
+      "water_level": 43.46,
+      "fetch_error": false
+    },
+    {
+      "timestamp": "2026-07-30 18:00",
       "water_level": 43.46,
       "fetch_error": false
     }
@@ -78,6 +88,11 @@
       "timestamp": "2026-07-30 17:00",
       "water_level": 1.45,
       "fetch_error": false
+    },
+    {
+      "timestamp": "2026-07-30 18:00",
+      "water_level": 1.45,
+      "fetch_error": false
     }
   ],
   "朱太川": [
@@ -103,6 +118,11 @@
     },
     {
       "timestamp": "2026-07-30 17:00",
+      "water_level": 1.34,
+      "fetch_error": false
+    },
+    {
+      "timestamp": "2026-07-30 18:00",
       "water_level": 1.34,
       "fetch_error": false
     }
