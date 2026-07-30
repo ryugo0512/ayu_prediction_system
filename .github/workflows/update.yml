@@ -2,8 +2,8 @@ name: Hourly Water Level Update
 
 on:
   schedule:
-    - cron: '2,17,32,47 * * * *'  # 1時間ごとに実行
-  workflow_dispatch:     # 手動実行を可能にする設定
+    - cron: '2,17,32,47 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-data:
