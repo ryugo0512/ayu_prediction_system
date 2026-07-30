@@ -6,10 +6,10 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 3,
     "base_level": 1.81,
-    "decay_rate": 1.15773,
+    "decay_rate": 1.14615,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-29 20:32:51",
+    "last_success_time": "2026-07-30 00:15:37",
     "last_valid_level": 9.42
   },
   "昆布川": {
@@ -19,11 +19,11 @@
     "runoff_factor": 0.045,
     "rain_lag_hours": 1,
     "base_level": 43.58,
-    "decay_rate": 1.22868,
+    "decay_rate": 1.24097,
     "hamiaka_threshold": 30.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-29 20:32:52",
-    "last_valid_level": 43.46
+    "last_success_time": "2026-07-30 00:15:39",
+    "last_valid_level": 43.47
   },
   "天ノ川": {
     "url": "https://weathernews.jp/onebox/river/?pid=0025700400132",
@@ -32,10 +32,10 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 2,
     "base_level": 1.6,
-    "decay_rate": 1.22931,
+    "decay_rate": 1.2416,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-29 20:32:53",
+    "last_success_time": "2026-07-30 00:15:40",
     "last_valid_level": 1.48
   },
   "朱太川": {
@@ -45,10 +45,10 @@
     "runoff_factor": 0.035,
     "rain_lag_hours": 2,
     "base_level": 1.44,
-    "decay_rate": 1.22896,
+    "decay_rate": 1.24125,
     "hamiaka_threshold": 50.0,
     "hamiaka_growth_rate": 1.0,
-    "last_success_time": "2026-07-29 20:32:54",
-    "last_valid_level": 1.35
+    "last_success_time": "2026-07-30 00:15:41",
+    "last_valid_level": 1.33
   }
 }
