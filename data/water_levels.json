@@ -1,46 +1,6 @@
 {
   "尻別川本流": [
     {
-      "timestamp": "2026-07-30 14:00",
-      "water_level": 1.58,
-      "fetch_error": false
-    },
-    {
-      "timestamp": "2026-07-30 15:00",
-      "water_level": 1.58,
-      "fetch_error": false
-    },
-    {
-      "timestamp": "2026-07-30 15:00",
-      "water_level": 1.58,
-      "fetch_error": false
-    },
-    {
-      "timestamp": "2026-07-30 17:00",
-      "water_level": 1.58,
-      "fetch_error": false
-    },
-    {
-      "timestamp": "2026-07-30 17:00",
-      "water_level": 1.58,
-      "fetch_error": false
-    },
-    {
-      "timestamp": "2026-07-30 18:00",
-      "water_level": 1.58,
-      "fetch_error": false
-    },
-    {
-      "timestamp": "2026-07-30 19:00",
-      "water_level": 1.57,
-      "fetch_error": false
-    },
-    {
-      "timestamp": "2026-07-30 20:00",
-      "water_level": 1.57,
-      "fetch_error": false
-    },
-    {
       "timestamp": "2026-07-30 21:03:44",
       "water_level": 9.06,
       "fetch_error": false
