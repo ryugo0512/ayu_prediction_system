@@ -1260,6 +1260,15 @@
       "rain_niseko": 0.0,
       "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-04 21:03:45",
+      "water_level": 9.03,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
+      "rain_kimobetsu": 0.0
     }
   ],
   "昆布川": [
@@ -2557,6 +2566,15 @@
     },
     {
       "timestamp": "2026-08-04 20:03:38",
+      "water_level": 44.98,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
+      "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-04 21:03:45",
       "water_level": 44.98,
       "fetch_error": false,
       "rain_rankoshi": 0.0,
@@ -3866,6 +3884,15 @@
       "rain_niseko": 0.0,
       "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-04 21:03:45",
+      "water_level": 1.33,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
+      "rain_kimobetsu": 0.0
     }
   ],
   "朱太川": [
@@ -5163,6 +5190,15 @@
     },
     {
       "timestamp": "2026-08-04 20:03:38",
+      "water_level": 1.32,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
+      "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-04 21:03:45",
       "water_level": 1.32,
       "fetch_error": false,
       "rain_rankoshi": 0.0,
