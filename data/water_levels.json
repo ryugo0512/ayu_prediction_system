@@ -3006,14 +3006,18 @@
       "rain_niseko": 0.0,
       "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-11 11:03:36",
+      "water_level": 9.01,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
+      "rain_kimobetsu": 0.0
     }
   ],
   "昆布川": [
-    {
-      "timestamp": "2026-07-30 20:00",
-      "water_level": 43.45,
-      "fetch_error": false
-    },
     {
       "timestamp": "2026-07-30 21:03:44",
       "water_level": 43.45,
@@ -6020,14 +6024,18 @@
       "rain_niseko": 0.0,
       "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-11 11:03:36",
+      "water_level": 43.37,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
+      "rain_kimobetsu": 0.0
     }
   ],
   "天ノ川": [
-    {
-      "timestamp": "2026-07-30 20:00",
-      "water_level": 1.45,
-      "fetch_error": false
-    },
     {
       "timestamp": "2026-07-30 21:03:44",
       "water_level": 1.45,
@@ -9034,14 +9042,18 @@
       "rain_niseko": 0.0,
       "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-11 11:03:36",
+      "water_level": 1.17,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
+      "rain_kimobetsu": 0.0
     }
   ],
   "朱太川": [
-    {
-      "timestamp": "2026-07-30 20:00",
-      "water_level": 1.34,
-      "fetch_error": false
-    },
     {
       "timestamp": "2026-07-30 21:03:44",
       "water_level": 1.34,
@@ -12043,6 +12055,15 @@
     {
       "timestamp": "2026-08-11 10:03:37",
       "water_level": 1.24,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
+      "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-11 11:03:36",
+      "water_level": 1.23,
       "fetch_error": false,
       "rain_rankoshi": 0.0,
       "rain_niseko": 0.0,
