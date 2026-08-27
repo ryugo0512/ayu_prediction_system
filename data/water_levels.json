@@ -1,15 +1,6 @@
 {
   "尻別川本流": [
     {
-      "timestamp": "2026-08-21 19:03:38",
-      "water_level": 9.03,
-      "fetch_error": false,
-      "rain_rankoshi": 0.0,
-      "rain_niseko": 0.0,
-      "rain_kutchan": 0.0,
-      "rain_kimobetsu": 0.0
-    },
-    {
       "timestamp": "2026-08-21 19:58:15",
       "water_level": 9.03,
       "fetch_error": false,
@@ -3023,18 +3014,18 @@
       "rain_niseko": 0.1,
       "rain_kutchan": 0.6,
       "rain_kimobetsu": 0.0
-    }
-  ],
-  "昆布川": [
+    },
     {
-      "timestamp": "2026-08-21 19:03:38",
-      "water_level": 43.36,
+      "timestamp": "2026-08-27 20:03:44",
+      "water_level": 9.23,
       "fetch_error": false,
       "rain_rankoshi": 0.0,
       "rain_niseko": 0.0,
       "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
-    },
+    }
+  ],
+  "昆布川": [
     {
       "timestamp": "2026-08-21 19:58:15",
       "water_level": 43.36,
@@ -6049,18 +6040,18 @@
       "rain_niseko": 0.1,
       "rain_kutchan": 0.6,
       "rain_kimobetsu": 0.0
-    }
-  ],
-  "天ノ川": [
+    },
     {
-      "timestamp": "2026-08-21 19:03:38",
-      "water_level": 1.11,
+      "timestamp": "2026-08-27 20:03:44",
+      "water_level": 44.98,
       "fetch_error": false,
       "rain_rankoshi": 0.0,
       "rain_niseko": 0.0,
       "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
-    },
+    }
+  ],
+  "天ノ川": [
     {
       "timestamp": "2026-08-21 19:58:15",
       "water_level": 1.12,
@@ -9075,18 +9066,18 @@
       "rain_niseko": 0.1,
       "rain_kutchan": 0.6,
       "rain_kimobetsu": 0.0
-    }
-  ],
-  "朱太川": [
+    },
     {
-      "timestamp": "2026-08-21 19:03:38",
-      "water_level": 1.24,
+      "timestamp": "2026-08-27 20:03:44",
+      "water_level": 1.23,
       "fetch_error": false,
       "rain_rankoshi": 0.0,
       "rain_niseko": 0.0,
       "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
-    },
+    }
+  ],
+  "朱太川": [
     {
       "timestamp": "2026-08-21 19:58:15",
       "water_level": 1.24,
@@ -12100,6 +12091,15 @@
       "rain_rankoshi": 0.2,
       "rain_niseko": 0.1,
       "rain_kutchan": 0.6,
+      "rain_kimobetsu": 0.0
+    },
+    {
+      "timestamp": "2026-08-27 20:03:44",
+      "water_level": 1.33,
+      "fetch_error": false,
+      "rain_rankoshi": 0.0,
+      "rain_niseko": 0.0,
+      "rain_kutchan": 0.0,
       "rain_kimobetsu": 0.0
     }
   ]
