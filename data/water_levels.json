@@ -1,15 +1,6 @@
 {
   "尻別川本流": [
     {
-      "timestamp": "2026-11-03 11:03:41",
-      "water_level": 9.06,
-      "fetch_error": false,
-      "rain_rankoshi": 0.0,
-      "rain_niseko": 0.0,
-      "rain_kutchan": 0.0,
-      "rain_kimobetsu": 0.0
-    },
-    {
       "timestamp": "2026-11-03 12:03:43",
       "water_level": 9.06,
       "fetch_error": false,
@@ -3023,18 +3014,18 @@
       "rain_niseko": 0.4,
       "rain_kutchan": 0.3,
       "rain_kimobetsu": 0.4
+    },
+    {
+      "timestamp": "2026-11-15 15:28:46",
+      "water_level": 9.14,
+      "fetch_error": false,
+      "rain_rankoshi": 0.3,
+      "rain_niseko": 0.4,
+      "rain_kutchan": 0.4,
+      "rain_kimobetsu": 0.4
     }
   ],
   "昆布川": [
-    {
-      "timestamp": "2026-11-03 11:03:41",
-      "water_level": 43.42,
-      "fetch_error": false,
-      "rain_rankoshi": 0.0,
-      "rain_niseko": 0.0,
-      "rain_kutchan": 0.0,
-      "rain_kimobetsu": 0.0
-    },
     {
       "timestamp": "2026-11-03 12:03:43",
       "water_level": 43.42,
@@ -6049,18 +6040,18 @@
       "rain_niseko": 0.4,
       "rain_kutchan": 0.3,
       "rain_kimobetsu": 0.4
+    },
+    {
+      "timestamp": "2026-11-15 15:28:46",
+      "water_level": 43.47,
+      "fetch_error": false,
+      "rain_rankoshi": 0.3,
+      "rain_niseko": 0.4,
+      "rain_kutchan": 0.4,
+      "rain_kimobetsu": 0.4
     }
   ],
   "天ノ川": [
-    {
-      "timestamp": "2026-11-03 11:03:41",
-      "water_level": 1.22,
-      "fetch_error": false,
-      "rain_rankoshi": 0.0,
-      "rain_niseko": 0.0,
-      "rain_kutchan": 0.0,
-      "rain_kimobetsu": 0.0
-    },
     {
       "timestamp": "2026-11-03 12:03:43",
       "water_level": 1.21,
@@ -9074,20 +9065,20 @@
       "rain_rankoshi": 0.3,
       "rain_niseko": 0.4,
       "rain_kutchan": 0.3,
+      "rain_kimobetsu": 0.4
+    },
+    {
+      "timestamp": "2026-11-15 15:28:46",
+      "water_level": 1.17,
+      "fetch_error": false,
+      "rain_rankoshi": 0.3,
+      "rain_niseko": 0.4,
+      "rain_kutchan": 0.4,
       "rain_kimobetsu": 0.4
     }
   ],
   "朱太川": [
     {
-      "timestamp": "2026-11-03 11:03:41",
-      "water_level": 1.44,
-      "fetch_error": true,
-      "rain_rankoshi": 0.0,
-      "rain_niseko": 0.0,
-      "rain_kutchan": 0.0,
-      "rain_kimobetsu": 0.0
-    },
-    {
       "timestamp": "2026-11-03 12:03:43",
       "water_level": 1.44,
       "fetch_error": true,
@@ -12100,6 +12091,15 @@
       "rain_rankoshi": 0.3,
       "rain_niseko": 0.4,
       "rain_kutchan": 0.3,
+      "rain_kimobetsu": 0.4
+    },
+    {
+      "timestamp": "2026-11-15 15:28:46",
+      "water_level": 1.44,
+      "fetch_error": true,
+      "rain_rankoshi": 0.3,
+      "rain_niseko": 0.4,
+      "rain_kutchan": 0.4,
       "rain_kimobetsu": 0.4
     }
   ]
